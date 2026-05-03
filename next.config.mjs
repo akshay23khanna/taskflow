@@ -4,7 +4,6 @@ import { imageHosts } from './image-hosts.config.mjs';
 const nextConfig = {
   productionBrowserSourceMaps: true,
   distDir: process.env.DIST_DIR || '.next',
-  output: 'standalone',
 
   typescript: {
     ignoreBuildErrors: true,
